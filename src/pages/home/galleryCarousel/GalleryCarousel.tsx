@@ -1,0 +1,81 @@
+import Carousel from "better-react-carousel";
+const GalleryCarousel = () => {
+  return (
+    <div className=" flex items-center mt-32 lg:mt-20 h-[40vh]">
+      <Carousel autoplay={3000} cols={5} rows={1} gap={10} loop>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://samarnews.com/news_clips24/8ID_relief_ops.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://cdnimgen.vietnamplus.vn/t620/uploaded/wbxx/2017_09_28/vna_doctors_provide_free_medical_examinations_for_cambodian_poor.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://i.pinimg.com/736x/ab/0e/80/ab0e801379280da07ca50e197ec5fa52.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://www.redcross.org/content/dam/redcross/uncategorized/1/1428x820-earthquake-relief-distribute-relief-supplies1.jpg.img.jpeg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://newscorebulacan.net/wp-content/uploads/2023/08/RELIEF-GOODS-CALUMPIT-scaled.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://spweb-uploads.s3.theark.cloud/2020/01/homescreen-1913PH-E2-047_IMG_0386-765x460.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://thumbs.dreamstime.com/b/teaching-poor-kids-indian-village-rural-areas-being-taught-to-read-write-english-school-education-program-50806159.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://www.bworldonline.com/wp-content/uploads/2023/06/Workers-relief-goods.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://saiia.org.za/wp-content/uploads/2014/07/12a9bb93e99c9b33f65523b5bb044117.jpg"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width="100%"
+            className="h-52"
+            src="https://www.globalgiving.org/pfil/4935/pict_large.jpg"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
+};
+
+export default GalleryCarousel;
