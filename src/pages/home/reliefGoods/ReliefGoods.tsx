@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import { useGetAllReliefQuery } from "../../../redux/api/reliefApi/relief.api";
-import Loading from "../../../ulits/Loading";
+import Loading from "../../../components/Loading";
 
 export type TReliefProps = {
   _id: string;

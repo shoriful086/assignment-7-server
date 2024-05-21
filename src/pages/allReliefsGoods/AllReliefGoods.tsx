@@ -11,7 +11,7 @@ import {
 import { useGetAllReliefQuery } from "../../redux/api/reliefApi/relief.api";
 import { Link } from "react-router-dom";
 import { TReliefProps } from "../home/reliefGoods/ReliefGoods";
-import Loading from "../../ulits/Loading";
+import Loading from "../../components/Loading";
 
 const AllReliefGoods = () => {
   const { data: reliefs, isLoading } = useGetAllReliefQuery(undefined);

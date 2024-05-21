@@ -5,7 +5,7 @@ import BarChartApp from "./BarChart";
 import { useGetAllDonateQuery } from "../../../redux/api/donateApi/donate.api";
 import { useGetAllReliefQuery } from "../../../redux/api/reliefApi/relief.api";
 import { useGetAllUserQuery } from "../../../redux/api/userApi/user.api";
-import Loading from "../../../ulits/Loading";
+import Loading from "../../../components/Loading";
 
 const donateIcon = (
   <svg

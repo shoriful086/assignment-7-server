@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Container, Typography } from "@mui/material";
 import { useGetAllVolunteersQuery } from "../../redux/api/volunteerApi/volunteer.api";
-import Loading from "../../ulits/Loading";
+import Loading from "../../components/Loading";
 
 const AboutUs = () => {
   const { data, isLoading } = useGetAllVolunteersQuery(undefined);

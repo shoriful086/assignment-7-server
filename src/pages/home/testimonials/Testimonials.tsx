@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useGetAllTestimonialsQuery } from "../../../redux/api/testimonialsApi/testimonials.api";
-import Loading from "../../../ulits/Loading";
+import Loading from "../../../components/Loading";
 
 const Testimonials = () => {
   const { data: testimonialsData, isLoading } =

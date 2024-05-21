@@ -14,7 +14,7 @@ import { Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import UpdateSupplyModal from "./UpdateSupplyModal";
-import Loading from "../../../ulits/Loading";
+import Loading from "../../../components/Loading";
 
 const trash = (
   <svg

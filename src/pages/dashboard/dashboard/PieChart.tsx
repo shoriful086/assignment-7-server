@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { PieChart, pieArcLabelClasses } from "@mui/x-charts/PieChart";
 import { useGetAllReliefQuery } from "../../../redux/api/reliefApi/relief.api";
-import Loading from "../../../ulits/Loading";
+import Loading from "../../../components/Loading";
 
 const Chart = () => {
   const {

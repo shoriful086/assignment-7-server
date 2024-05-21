@@ -2,7 +2,7 @@
 import { Container } from "@mui/material";
 import CreatePostModal from "./CreatePostModal";
 import { useGetAllCommunityPostQuery } from "../../redux/api/communityApi/community.api";
-import Loading from "../../ulits/Loading";
+import Loading from "../../components/Loading";
 
 const Community = () => {
   const { data, isLoading } = useGetAllCommunityPostQuery(undefined);

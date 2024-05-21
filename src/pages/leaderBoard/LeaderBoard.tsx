@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Container, Divider } from "@mui/material";
 import { useGetAllDonateQuery } from "../../redux/api/donateApi/donate.api";
-import Loading from "../../ulits/Loading";
+import Loading from "../../components/Loading";
 
 const LeaderBoard = () => {
   const { data: donates, isLoading } = useGetAllDonateQuery(undefined);
